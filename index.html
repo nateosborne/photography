@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="title">Cyberpunk 2077 Photography</div>
+
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+
+      <div class="links">
+        <ul>
+          <li><a class="underline-hover-effect" href="#">Home</a></li>
+          <li><a class="underline-hover-effect" href="#">About</a></li>
+          <li><a class="underline-hover-effect" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="page">
+      <div class="slider-container">
+        <div class="slide">
+          <img src="./img-1.png" class="slide-img" alt="" />
+          <a href="architecture.html"> <h1>Architecture</h1></a>
+        </div>
+        <div class="slide">
+          <img src="./img-2.png" class="slide-img" alt="" />
+          <a href="portraits.html"> <h1>Portraits</h1></a>
+        </div>
+        <div class="slide">
+          <img src="./person-1.png" class="slide-img" alt="" />
+          <a href="other.html"> <h1>Other</h1></a>
+        </div>
+        <div class="btn-container">
+          <button type="button" class="prevBtn"><</button>
+          <button type="button" class="nextBtn">></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="photos.js"></script>
+  </body>
+</html>
